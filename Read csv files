@@ -1,0 +1,6 @@
+import csv
+
+%precision 2
+
+with open('filename.csv') as csvfile:
+    a_name = list(csv.DictReader(csvfile))
